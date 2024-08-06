@@ -1,0 +1,78 @@
+body {
+    color: white;
+    background: rgb(0, 0, 0);
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgba(255, 255, 255, 0.826);
+    padding: 25px;
+    margin-left: -10px;                                                     
+    margin-right: -10px;
+    font-size: 23px;
+    color: rgb(181, 0, 253);
+    background-color: rgb(32, 0, 107);
+    
+}
+
+.chamada {
+    background: rgb(14, 39, 17, 1);
+    padding-bottom: 70px;
+    padding-top: 20px;
+    padding-left: 40;
+    padding-right: 10;
+    margin: -10px;
+
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+    margin: 10px;
+    
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 23px;
+} 
+
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+
+}
+
+
+.episodios {
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.categoria-videos img {  
+    opacity: 0.5;
+    height: 100px
+}
+
+/* colocasse a classe e com espaço e em seguida adciona o elemento "filho"(img) que está dentro da classe para modificar somente ele */
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 2px solid green;
+}
+.episodios h2 {
+    color: rgb(181, 0, 253); 
+
+}
